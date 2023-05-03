@@ -62,7 +62,11 @@ export default function Home(props) {
                   {term.sessions[1].title}
                 </h3>
               </div>
-              <div className="border-2 border-ocean-blue rounded-md">
+              <div
+                className={`border-2 border-ocean-blue rounded-md ${
+                  i % 2 !== 0 && `bg-yellow-50`
+                }`}
+              >
                 <div className="grid lg:grid-cols-2 gap-y-6 lg:gap-y-0 lg:gap-x-10 p-4 md:p-6 lg:p-8">
                   {term.sessions.length > 0 &&
                     term.sessions.map((session, j) => {

@@ -19,10 +19,10 @@
                   "credits": 3
                 },
                 {
-                  "icons": ["gmat"],
-                  "code": "MATH161",
-                  "title": "College Algebra",
-                  "credits": 6
+                  "icons": ["elective"],
+                  "code": "BUSN131",
+                  "title": "Introduction to Business Administration",
+                  "credits": 3
                 },
                 {
                   "icons": ["key"],
@@ -45,7 +45,46 @@
                   "icons": ["tech"],
                   "code": "CSIT123",
                   "title": "Integrated Office Software",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 2",
+          "sessions": [
+            {
+              "title": "Session 3",
+              "courses": [
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH161",
+                  "title": "College Algebra",
                   "credits": 6
+                },
+                {
+                  "icons": ["key"],
+                  "code": "COMM154",
+                  "title": "Fundamentals of Public Speaking",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 4",
+              "courses": [
+                {
+                  "icons": ["gscl"],
+                  "code": "ENVI152",
+                  "title": "Environmental Science",
+                  "credits": 4
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN134",
+                  "title": "Integrated Office Software",
+                  "credits": 3
                 }
               ]
             }
