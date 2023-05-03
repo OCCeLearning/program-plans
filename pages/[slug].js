@@ -19,7 +19,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home(props) {
   const [program] = props.program
   const { title, terms, slug } = program
-  const icons = {
+  const reactIcons = {
     key: FaKey,
     gmat: FaDivide,
     tech: HiOutlineDesktopComputer,
@@ -52,12 +52,12 @@ export default function Home(props) {
                   {term.title}
                 </h2>
                 <h3
-                  className={`col-span-2 order-1 text-lg text-ocean-blue pt-2`}
+                  className={`col-span-2 order-1 text-lg font-semibold text-ocean-blue pt-2`}
                 >
                   {term.sessions[0].title}
                 </h3>
                 <h3
-                  className={`col-span-2 order-5 text-lg text-ocean-blue pt-2`}
+                  className={`col-span-2 order-5 text-lg font-semibold text-ocean-blue pt-2`}
                 >
                   {term.sessions[1].title}
                 </h3>
@@ -89,20 +89,63 @@ export default function Home(props) {
                               <tbody>
                                 {session.courses.length > 0 &&
                                   session.courses.map((course, k) => {
-                                    const Icon = icons[course.icon]
                                     return (
                                       <tr
                                         key={`${slug}-term-${i}-session-${j}-course-${k}`}
                                         className={`border-b`}
                                       >
-                                        <td className="w-[5%] py-2">
-                                          <Icon />
+                                        <td className="w-[5%] py-2 ">
+                                          {course.icons.length > 0 &&
+                                            course.icons.map((item, l) => {
+                                              const Icon = reactIcons[item]
+                                              let label
+                                              switch (item) {
+                                                case 'pe':
+                                                  label = 'Program Elective'
+                                                  break
+                                                case 'elective':
+                                                  label = 'Elective'
+                                                  break
+                                                case 'gcom':
+                                                  label = 'Communications'
+                                                  break
+                                                case 'gdiv':
+                                                  label = 'Diversity'
+                                                  break
+                                                case 'ghis':
+                                                  label = 'History'
+                                                  break
+                                                case 'ghum':
+                                                  label = 'Humanities'
+                                                  break
+                                                case 'gmat':
+                                                  label = 'Mathematics'
+                                                  break
+                                                case 'gscl':
+                                                  label = 'Lab Science'
+                                                  break
+                                                case 'gsoc':
+                                                  label = 'Social Science'
+                                                  break
+                                                default:
+                                                  label = 'Program Requirement'
+                                              }
+                                              return (
+                                                <Icon
+                                                  key={`${slug}-term-${i}-session-${j}-course-${k}-icon-${l}`}
+                                                  className={`text-ocean-blue ${
+                                                    l > 0 && `mt-2`
+                                                  }`}
+                                                  aria-label={label}
+                                                />
+                                              )
+                                            })}
                                         </td>
                                         <td>{course.code}</td>
                                         <td className="w-[60%]">
                                           {course.title}
                                         </td>
-                                        <td className="w-[10%]">{`${course.credits} cr`}</td>
+                                        <td className="w-[12%]">{`${course.credits} cr`}</td>
                                       </tr>
                                     )
                                   })}
@@ -117,7 +160,7 @@ export default function Home(props) {
             </section>
           ))}
       </main>
-      <footer>FOOTER</footer>
+      <footer className={`mt-auto`}>FOOTER</footer>
     </div>
   )
 }

@@ -13,19 +13,19 @@
               "title": "Session 1",
               "courses": [
                 {
-                  "icon": "key",
+                  "icons": ["key"],
                   "code": "ENGL151",
                   "title": "English I",
                   "credits": 3
                 },
                 {
-                  "icon": "gmat",
+                  "icons": ["gmat"],
                   "code": "MATH161",
                   "title": "College Algebra",
                   "credits": 6
                 },
                 {
-                  "icon": "key",
+                  "icons": ["key"],
                   "code": "STC150",
                   "title": "Student Success Seminar",
                   "credits": 2
@@ -36,67 +36,16 @@
               "title": "Session 2",
               "courses": [
                 {
-                  "icon": "key",
+                  "icons": ["key"],
                   "code": "ENGL152",
                   "title": "English II",
                   "credits": 3
                 },
                 {
-                  "icon": "tech",
+                  "icons": ["tech"],
                   "code": "CSIT123",
-                  "title": "Integrated",
+                  "title": "Integrated Office Software",
                   "credits": 6
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Term 2",
-          "sessions": [
-            {
-              "title": "Session 3",
-              "courses": [
-                {
-                  "icon": "key",
-                  "code": "ENGL151",
-                  "title": "English I",
-                  "credits": 3
-                },
-                {
-                  "icon": "gmat",
-                  "code": "MATH161",
-                  "title": "College Algebra",
-                  "credits": 6
-                },
-                {
-                  "icon": "key",
-                  "code": "STC150",
-                  "title": "Student Success Seminar",
-                  "credits": 2
-                }
-              ]
-            },
-            {
-              "title": "Session 4",
-              "courses": [
-                {
-                  "icon": "gsoc",
-                  "code": "ENGL151",
-                  "title": "English I",
-                  "credits": 3
-                },
-                {
-                  "icon": "gmat",
-                  "code": "MATH161",
-                  "title": "College Algebra",
-                  "credits": 6
-                },
-                {
-                  "icon": "ghis",
-                  "code": "STC150",
-                  "title": "Student Success Seminar",
-                  "credits": 2
                 }
               ]
             }
