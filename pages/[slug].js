@@ -19,7 +19,7 @@ import { TbLetterD, TbLetterE } from 'react-icons/tb'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Program({ program }) {
-  const { credits, overview, requirements, title, terms, slug } = program
+  const { credits, overview, requirements, pdf, slug, title, terms } = program
   const reactIcons = {
     key: FaKey,
     gmat: FaDivide,
@@ -37,11 +37,11 @@ export default function Program({ program }) {
   return (
     <div className={`${inter.className}`}>
       <header className={`pt-16`}>
-        <div className="max-w-screen-xl mx-auto h-0.5 rounded bg-ocean-blue" />
+        <div className="hidden lg:block max-w-screen-xl mx-auto h-0.5 rounded bg-ocean-blue mb-6" />
         <h1 className={`text-center text-4xl font-bold py-1 text-ocean-blue`}>
           {title}
         </h1>
-        <p className="text-center -mt-2">
+        <p className="text-center -mt-1">
           Online Educational Plan - 7.5 Week Sessions
         </p>
       </header>
@@ -189,7 +189,9 @@ export default function Program({ program }) {
                       key={`program-key-${i}`}
                       className="w-42 flex items-center"
                     >
-                      <Icon className={`text-ocean-blue h-5 w-5 inline mr-2`} />
+                      <Icon
+                        className={`text-ocean-blue h-5 w-5 inline mr-2 shrink-0`}
+                      />
                       <span>{legend[icon]}</span>
                     </li>
                   )
@@ -211,22 +213,34 @@ export default function Program({ program }) {
           </div>
         </div>
         <div
-          className={`flex flex-col items-center max-w-3xl border-t my-3 py-3 mx-auto`}
+          className={`flex flex-col items-center max-w-3xl border-t mt-12 pt-12 mx-auto`}
         >
           <h2 className="text-ocean-blue font-bold text-2xl">{title}</h2>
           <h3 className="text-ocean-blue font-semibold">{credits} credits</h3>
-          <a
-            href={overview}
-            className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
-          >
-            Program Overview
-          </a>
-          <a
-            href={requirements}
-            className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
-          >
-            Program Requirements
-          </a>
+          {overview && (
+            <a
+              href={overview}
+              className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
+            >
+              Program Overview
+            </a>
+          )}
+          {requirements && (
+            <a
+              href={requirements}
+              className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
+            >
+              Program Requirements
+            </a>
+          )}
+          {pdf && (
+            <a
+              href={pdf}
+              className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
+            >
+              Download PDF
+            </a>
+          )}
         </div>
         <div className="max-w-screen-xl mx-auto flex justify-center lg:justify-end">
           <Image

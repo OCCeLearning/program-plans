@@ -7,6 +7,7 @@
       "credits": 60,
       "overview": "https://catalog.ocean.edu/areas-study/business/business-administration-as/",
       "requirements": "https://catalog.ocean.edu/areas-study/business/business-administration-as/#programrequirementstext",
+      "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.ba.online.pdf",
       "terms": [
         {
           "title": "Term 1",
@@ -195,10 +196,206 @@
       ]
     },
     {
+      "title": "Business Administration, Accounting, A.S.",
+      "slug": "business-administration-accounting-as",
+      "credits": 60,
+      "overview": "",
+      "requirements": "",
+      "pdf": "",
+      "terms": [
+        {
+          "title": "Term 1",
+          "sessions": [
+            {
+              "title": "Session 1",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL151",
+                  "title": "English I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "MATH156",
+                  "title": "Introduction to Statistics (or higher)",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "STC150",
+                  "title": "Student Success Seminar",
+                  "credits": 2
+                }
+              ]
+            },
+            {
+              "title": "Session 2",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL152",
+                  "title": "English II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "CSIT123",
+                  "title": "Integrated Office Software",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 2",
+          "sessions": [
+            {
+              "title": "Session 3",
+              "courses": [
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH191",
+                  "title": "Precalculus I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["elective"],
+                  "code": "PHIL190",
+                  "title": "Introduction to Critical Thinking",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 4",
+              "courses": [
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH192",
+                  "title": "Precalculus II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN134",
+                  "title": "Principles of Marketing",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 3",
+          "sessions": [
+            {
+              "title": "Session 5",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ACCT161",
+                  "title": "Principles of Accounting I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN210",
+                  "title": "Business Communications",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 6",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ACCT162",
+                  "title": "Principles of Accounting II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gscl"],
+                  "code": "ENVI152",
+                  "title": "Environmental Science",
+                  "credits": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 4",
+          "sessions": [
+            {
+              "title": "Session 7",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ECON151",
+                  "title": "Macroeconomic Principles",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN251",
+                  "title": "Business Law I",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 8",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ECON152",
+                  "title": "Microeconomics Principles",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "ACCT271",
+                  "title": "Forensic Accounting",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 5",
+          "sessions": [
+            {
+              "title": "Session 9",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "BUSN271",
+                  "title": "Principles of Management",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "ACCT275",
+                  "title": "Fraud Examination",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Business Administration, Supply Chain Management, A.S.",
       "slug": "business-administration-supply-chain-management-as",
       "credits": 61,
-      "overview": "https://catalog.ocean.edu/areas-study/business/supply-chain/#programrequirementstext",
+      "overview": "https://catalog.ocean.edu/areas-study/business/supply-chain/",
+      "requirements": "https://catalog.ocean.edu/areas-study/business/supply-chain/#programrequirementstext",
+      "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.ba.scm.online.pdf",
       "terms": [
         {
           "title": "Term 1",
@@ -384,6 +581,406 @@
                   "icons": ["key"],
                   "code": "BUSN249",
                   "title": "Operations Management",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Criminal Justice, A.S.",
+      "slug": "criminal-justice-as",
+      "credits": 60,
+      "overview": "https://catalog.ocean.edu/areas-study/law-public-safety/criminal-justice/",
+      "requirements": "https://catalog.ocean.edu/areas-study/law-public-safety/criminal-justice/#programrequirementstext",
+      "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.cj.online.pdf",
+      "terms": [
+        {
+          "title": "Term 1",
+          "sessions": [
+            {
+              "title": "Session 1",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL151",
+                  "title": "English I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "CRIM150",
+                  "title": "The Criminal Justice System",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "STC150",
+                  "title": "Student Success Seminar",
+                  "credits": 2
+                }
+              ]
+            },
+            {
+              "title": "Session 2",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL152",
+                  "title": "English II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gtec"],
+                  "code": "CSIT123",
+                  "title": "Integrated Office Software",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 2",
+          "sessions": [
+            {
+              "title": "Session 3",
+              "courses": [
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH156",
+                  "title": "Introduction to Statistics",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "COMM154",
+                  "title": "Fundamentals of Public Speaking",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 4",
+              "courses": [
+                {
+                  "icons": ["elective"],
+                  "code": "CRIM151",
+                  "title": "Police Organization and Administration",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "PSYC172",
+                  "title": "General Psychology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 3",
+          "sessions": [
+            {
+              "title": "Session 5",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "CRIM152",
+                  "title": "Introduction to Law Enforcement",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "FRSC105",
+                  "title": "Forensic Science",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "title": "Session 6",
+              "courses": [
+                {
+                  "icons": ["elective"],
+                  "code": "HIST172",
+                  "title": "Western Civilization from 1650",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "CRIM155",
+                  "title": "Introduction to Corrections",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 4",
+          "sessions": [
+            {
+              "title": "Session 7",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "CRIM254",
+                  "title": "Constitutional Law and Rules of Evidence",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "POLI162",
+                  "title": "American State and Local Government",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 8",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "CRIM255",
+                  "title": "Criminal Law and Procedure",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "SOCI181",
+                  "title": "Introduction to Sociology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 5",
+          "sessions": [
+            {
+              "title": "Session 9",
+              "courses": [
+                {
+                  "icons": ["pe"],
+                  "code": "CRIM281",
+                  "title": "Criminal Investigation Theory",
+                  "credits": 3
+                },
+                {
+                  "icons": ["ghum"],
+                  "code": "PHIL190",
+                  "title": "Introduction to Critical Thinking",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "SOCI238",
+                  "title": "Race and Ethnicity",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Social Work, A.S.",
+      "slug": "social-work-as",
+      "credits": 60,
+      "overview": "https://catalog.ocean.edu/areas-study/behavioral-mental-health/social-work/",
+      "requirements": "https://catalog.ocean.edu/areas-study/behavioral-mental-health/social-work/#programrequirementstext",
+      "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.sw.online.pdf",
+      "terms": [
+        {
+          "title": "Term 1",
+          "sessions": [
+            {
+              "title": "Session 1",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL151",
+                  "title": "English I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "SOWK101",
+                  "title": "Introduction to Social Work",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "STC150",
+                  "title": "Student Success Seminar",
+                  "credits": 2
+                }
+              ]
+            },
+            {
+              "title": "Session 2",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL152",
+                  "title": "English II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "PSYC172",
+                  "title": "General Psychology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 2",
+          "sessions": [
+            {
+              "title": "Session 3",
+              "courses": [
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH156",
+                  "title": "Introduction to Statistics",
+                  "credits": 3
+                },
+                {
+                  "icons": ["elective"],
+                  "code": "COMM154",
+                  "title": "Fundamentals of Public Speaking",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 4",
+              "courses": [
+                {
+                  "icons": ["gtec"],
+                  "code": "CSIT123",
+                  "title": "Integrated Office Software",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "SOCI181",
+                  "title": "Introduction to Sociology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 3",
+          "sessions": [
+            {
+              "title": "Session 5",
+              "courses": [
+                {
+                  "icons": ["elective"],
+                  "code": "ARTS181",
+                  "title": "Art From Prehistory to Middle Ages",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gscl"],
+                  "code": "BIOL114",
+                  "title": "Forensic Science",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "title": "Session 6",
+              "courses": [
+                {
+                  "icons": ["pe"],
+                  "code": "POLI183",
+                  "title": "Introduction to Political Science",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "SOCI282",
+                  "title": "Sociology of the Family",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 4",
+          "sessions": [
+            {
+              "title": "Session 7",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "PHIL190",
+                  "title": "Introduction to Critical Thinking",
+                  "credits": 3
+                },
+                {
+                  "icons": ["elective"],
+                  "code": "SPAN151",
+                  "title": "Elementary Spanish I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "SOCI238",
+                  "title": "Race and Ethnicity",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 8",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "SOWK194",
+                  "title": "Interviewing & Communication",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "PSYC278",
+                  "title": "Life Span Development",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 5",
+          "sessions": [
+            {
+              "title": "Session 9",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "SOWK202",
+                  "title": "Social Work Seminar",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "PSYC271",
+                  "title": "Abnormal Psychology",
                   "credits": 3
                 }
               ]
