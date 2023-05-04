@@ -180,6 +180,41 @@ export default function Program({ program }) {
                     gsoc: 'GSOC (GE Social Science)',
                     gtec: 'GTEC (GE Technological Competency or Information Literacy)',
                   }
+                  let label
+                  switch (icon) {
+                    case 'pe':
+                      label = 'Program Elective'
+                      break
+                    case 'elective':
+                      label = 'Elective'
+                      break
+                    case 'gcom':
+                      label = 'Communications'
+                      break
+                    case 'gdiv':
+                      label = 'Diversity'
+                      break
+                    case 'ghis':
+                      label = 'History'
+                      break
+                    case 'ghum':
+                      label = 'Humanities'
+                      break
+                    case 'gmat':
+                      label = 'Mathematics'
+                      break
+                    case 'gscl':
+                      label = 'Lab Science'
+                      break
+                    case 'gsoc':
+                      label = 'Social Science'
+                      break
+                    case 'gtec':
+                      label = 'Technology'
+                      break
+                    default:
+                      label = 'Program Requirement'
+                  }
                   const Icon = reactIcons[icon]
                   return (
                     <li
@@ -188,6 +223,8 @@ export default function Program({ program }) {
                     >
                       <Icon
                         className={`text-ocean-blue h-5 w-5 inline mr-2 shrink-0`}
+                        aria-label={label}
+                        aria-hidden={false}
                       />
                       <span>{legend[icon]}</span>
                     </li>
