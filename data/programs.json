@@ -85,7 +85,7 @@
                 {
                   "icons": ["key"],
                   "code": "BUSN134",
-                  "title": "Integrated Office Software",
+                  "title": "Principles of Marketing",
                   "credits": 3
                 }
               ]
@@ -186,6 +186,204 @@
                   "icons": ["ghum"],
                   "code": "PHIL190",
                   "title": "Introduction to Critical Thinking",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business Administration, Supply Chain Management, A.S.",
+      "slug": "business-administration-supply-chain-management-as",
+      "credits": 61,
+      "overview": "https://catalog.ocean.edu/areas-study/business/supply-chain/#programrequirementstext",
+      "terms": [
+        {
+          "title": "Term 1",
+          "sessions": [
+            {
+              "title": "Session 1",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL151",
+                  "title": "English I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN131",
+                  "title": "Introduction to Supply Chain Management",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "STC150",
+                  "title": "Student Success Seminar",
+                  "credits": 2
+                }
+              ]
+            },
+            {
+              "title": "Session 2",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL152",
+                  "title": "English II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "CSIT123",
+                  "title": "Integrated Office Software",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 2",
+          "sessions": [
+            {
+              "title": "Session 3",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ECON151",
+                  "title": "Macroeconomic Principles",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "MATH156",
+                  "title": "Introduction to Statistics (or higher)",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 4",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ECON152",
+                  "title": "Microeconomics Principles",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN163",
+                  "title": "Transportation Systems",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 3",
+          "sessions": [
+            {
+              "title": "Session 5",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ACCT161",
+                  "title": "Principles of Accounting I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "COMM154",
+                  "title": "Fundamentals of Public Speaking",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 6",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ACCT162",
+                  "title": "Principles of Accounting II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["pe"],
+                  "code": "GEOG162 or POLI101",
+                  "title": "Human Geography or Global Issues",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 4",
+          "sessions": [
+            {
+              "title": "Session 7",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "BUSN251",
+                  "title": "Business Law I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["elective"],
+                  "code": "CSIT165",
+                  "title": "Programming I",
+                  "credits": 4
+                }
+              ]
+            },
+            {
+              "title": "Session 8",
+              "courses": [
+                {
+                  "icons": ["gscl"],
+                  "code": "ENVI152",
+                  "title": "Environmental Science",
+                  "credits": 4
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN134",
+                  "title": "Principles of Marketing",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 5",
+          "sessions": [
+            {
+              "title": "Session 9",
+              "courses": [
+                {
+                  "icons": ["ghum"],
+                  "code": "PHIL190",
+                  "title": "Introduction to Critical Thinking",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN271",
+                  "title": "Principles of Management",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN249",
+                  "title": "Operations Management",
                   "credits": 3
                 }
               ]

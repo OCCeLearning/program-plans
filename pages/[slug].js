@@ -196,14 +196,23 @@ export default function Program({ program }) {
                 })}
             </ul>
           </div>
-          <p className="">
-            Please refer to the OCC catalog for program and General Education
-            elective requirements. The General Education (GE) courses in this
-            plan are recommendations only. Please discuss your program and
-            course choices with an academic advisor, advisingoffice@ocean.edu.
-          </p>
+          <div>
+            <h2
+              className={`text-center text-xl text-ocean-blue font-bold mb-3`}
+            >
+              Note
+            </h2>
+            <p className="px-4">
+              Please refer to the OCC catalog for program and General Education
+              elective requirements. The General Education (GE) courses in this
+              plan are recommendations only. Please discuss your program and
+              course choices with an academic advisor, advisingoffice@ocean.edu.
+            </p>
+          </div>
         </div>
-        <div className={`flex flex-col items-center`}>
+        <div
+          className={`flex flex-col items-center max-w-3xl border-t my-3 py-3 mx-auto`}
+        >
           <h2 className="text-ocean-blue font-bold text-2xl">{title}</h2>
           <h3 className="text-ocean-blue font-semibold">{credits} credits</h3>
           <a
