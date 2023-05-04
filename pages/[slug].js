@@ -18,8 +18,7 @@ import { TbLetterD, TbLetterE } from 'react-icons/tb'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home(props) {
-  const [program] = props.program
+export default function Program({ program }) {
   const { credits, overview, requirements, title, terms, slug } = program
   const reactIcons = {
     key: FaKey,
@@ -243,9 +242,10 @@ async function getData() {
 
 export async function getStaticProps({ params }) {
   const data = await getData()
+  const program = data.programs.find(program => program.slug === params.slug)
   return {
     props: {
-      program: data.programs,
+      program,
     },
   }
 }
