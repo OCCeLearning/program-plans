@@ -5,6 +5,8 @@
       "title": "Business Administration, A.S.",
       "slug": "business-administration-as",
       "credits": 60,
+      "overview": "https://catalog.ocean.edu/areas-study/business/business-administration-as/",
+      "requirements": "https://catalog.ocean.edu/areas-study/business/business-administration-as/#programrequirementstext",
       "terms": [
         {
           "title": "Term 1",
@@ -42,7 +44,7 @@
                   "credits": 3
                 },
                 {
-                  "icons": ["tech"],
+                  "icons": ["gtec"],
                   "code": "CSIT123",
                   "title": "Integrated Office Software",
                   "credits": 3
@@ -84,6 +86,106 @@
                   "icons": ["key"],
                   "code": "BUSN134",
                   "title": "Integrated Office Software",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 3",
+          "sessions": [
+            {
+              "title": "Session 5",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ACCT161",
+                  "title": "Principles of Accounting I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH191",
+                  "title": "Precalculus I",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 6",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ACCT162",
+                  "title": "Principles of Accounting II",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gsoc"],
+                  "code": "PSYC172",
+                  "title": "General Psychology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 4",
+          "sessions": [
+            {
+              "title": "Session 7",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ECON151",
+                  "title": "Macroeconomic Principles",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "BUSN251",
+                  "title": "Business Law I",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 8",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ECON152",
+                  "title": "Microeconomics Principles",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gsoc", "ghum"],
+                  "code": "ANTH134",
+                  "title": "Cultural Anthropology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 5",
+          "sessions": [
+            {
+              "title": "Session 9",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "BUSN271",
+                  "title": "Principles of Management",
+                  "credits": 3
+                },
+                {
+                  "icons": ["ghum"],
+                  "code": "PHIL190",
+                  "title": "Introduction to Critical Thinking",
                   "credits": 3
                 }
               ]

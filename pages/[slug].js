@@ -1,5 +1,7 @@
 import fs from 'fs/promises'
 import path from 'path'
+import Image from 'next/image'
+import logo from '@/data/images/logo.png'
 import { Inter } from 'next/font/google'
 import {
   FaAtom,
@@ -11,18 +13,18 @@ import {
   FaTheaterMasks,
 } from 'react-icons/fa'
 import { AiFillBank } from 'react-icons/ai'
-import { HiOutlineDesktopComputer } from 'react-icons/hi'
+import { HiDesktopComputer } from 'react-icons/hi'
 import { TbLetterD, TbLetterE } from 'react-icons/tb'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home(props) {
   const [program] = props.program
-  const { title, terms, slug } = program
+  const { credits, overview, requirements, title, terms, slug } = program
   const reactIcons = {
     key: FaKey,
     gmat: FaDivide,
-    tech: HiOutlineDesktopComputer,
+    gtec: HiDesktopComputer,
     pe: FaMedal,
     elective: TbLetterE,
     gdiv: TbLetterD,
@@ -32,6 +34,7 @@ export default function Home(props) {
     gscl: FaAtom,
     gsoc: FaBalanceScale,
   }
+  let usedIcons = []
   return (
     <div className={`${inter.className}`}>
       <header className={`pt-16`}>
@@ -47,21 +50,7 @@ export default function Home(props) {
         {terms.length > 0 &&
           terms.map((term, i) => (
             <section key={`${slug}-term-${i}`} className={`py-4`}>
-              <div className="grid-cols-5 justify-items-center hidden lg:grid">
-                <h2 className={`col-span-1 order-3 text-2xl font-bold`}>
-                  {term.title}
-                </h2>
-                <h3
-                  className={`col-span-2 order-1 text-lg font-semibold text-ocean-blue pt-2`}
-                >
-                  {term.sessions[0].title}
-                </h3>
-                <h3
-                  className={`col-span-2 order-5 text-lg font-semibold text-ocean-blue pt-2`}
-                >
-                  {term.sessions[1].title}
-                </h3>
-              </div>
+              <h2 className={`text-center text-2xl font-bold`}>{term.title}</h2>
               <div
                 className={`border-2 border-ocean-blue rounded-md ${
                   i % 2 !== 0 && `bg-yellow-50`
@@ -77,7 +66,7 @@ export default function Home(props) {
                         >
                           <div>
                             <h3
-                              className={`text-lg text-center text-ocean-blue lg:hidden border-b border-ocean-blue`}
+                              className={`text-lg text-center text-ocean-blue border-b border-ocean-blue font-bold`}
                             >
                               {session.title}
                             </h3>
@@ -101,6 +90,11 @@ export default function Home(props) {
                                         <td className="w-[5%] py-2 ">
                                           {course.icons.length > 0 &&
                                             course.icons.map((item, l) => {
+                                              if (
+                                                usedIcons.indexOf(item) === -1
+                                              ) {
+                                                usedIcons.push(item)
+                                              }
                                               const Icon = reactIcons[item]
                                               let label
                                               switch (item) {
@@ -131,6 +125,9 @@ export default function Home(props) {
                                                 case 'gsoc':
                                                   label = 'Social Science'
                                                   break
+                                                case 'gtec':
+                                                  label = 'Technology'
+                                                  break
                                                 default:
                                                   label = 'Program Requirement'
                                               }
@@ -141,6 +138,7 @@ export default function Home(props) {
                                                     l > 0 && `mt-2`
                                                   }`}
                                                   aria-label={label}
+                                                  aria-hidden={false}
                                                 />
                                               )
                                             })}
@@ -164,7 +162,74 @@ export default function Home(props) {
             </section>
           ))}
       </main>
-      <footer className={`mt-auto`}>FOOTER</footer>
+      <footer className={`mt-auto py-12`}>
+        <div className="grid lg:grid-cols-2 lg:gap-x-6 max-w-screen-xl mx-auto items-center">
+          <div>
+            <h2 className={`text-center text-xl text-ocean-blue font-bold`}>
+              Course Key
+            </h2>
+            <ul className="flex flex-col lg:flex-row flex-wrap justify-between max-w-xl mx-auto p-6">
+              {usedIcons.length > 0 &&
+                usedIcons.map((icon, i) => {
+                  const legend = {
+                    key: 'Program Requirement',
+                    pe: 'Program Elective',
+                    elective: 'Elective',
+                    gcom: 'GCOM (GE Communications)',
+                    gdiv: 'GDIV (GE Diversity)',
+                    ghis: 'GHIS (GE History)',
+                    ghum: 'GHUM (GE Humanities)',
+                    gmat: 'GMAT (GE Mathematics)',
+                    gscl: 'GSCL (GE Lab Science)',
+                    gsoc: 'GSOC (GE Social Science)',
+                    gtec: 'GTEC (GE Technological Competency or Information Literacy)',
+                  }
+                  const Icon = reactIcons[icon]
+                  return (
+                    <li
+                      key={`program-key-${i}`}
+                      className="w-42 flex items-center"
+                    >
+                      <Icon className={`text-ocean-blue h-5 w-5 inline mr-2`} />
+                      <span>{legend[icon]}</span>
+                    </li>
+                  )
+                })}
+            </ul>
+          </div>
+          <p className="">
+            Please refer to the OCC catalog for program and General Education
+            elective requirements. The General Education (GE) courses in this
+            plan are recommendations only. Please discuss your program and
+            course choices with an academic advisor, advisingoffice@ocean.edu.
+          </p>
+        </div>
+        <div className={`flex flex-col items-center`}>
+          <h2 className="text-ocean-blue font-bold text-2xl">{title}</h2>
+          <h3 className="text-ocean-blue font-semibold">{credits} credits</h3>
+          <a
+            href={overview}
+            className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
+          >
+            Program Overview
+          </a>
+          <a
+            href={requirements}
+            className={`px-4 py-3 my-4 bg-ocean-blue text-yellow-50 rounded-md text-center`}
+          >
+            Program Requirements
+          </a>
+        </div>
+        <div className="max-w-screen-xl mx-auto flex justify-center lg:justify-end">
+          <Image
+            src={logo}
+            alt="Ocean County College Logo"
+            height={100}
+            className="mb-3"
+          />
+        </div>
+        <div className="max-w-screen-xl mx-auto h-0.5 rounded bg-ocean-blue" />
+      </footer>
     </div>
   )
 }
