@@ -1,5 +1,6 @@
 import path from 'path'
 import fs from 'fs/promises'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 export default function HomePage({ programs }) {
@@ -12,12 +13,12 @@ export default function HomePage({ programs }) {
         <ol className="list-decimal pl-8">
           {programs.map(program => (
             <li key={program.slug}>
-              <a
+              <Link
                 href={`/${program.slug}`}
                 className="text-ocean-blue underline hover:no-underline"
               >
                 {program.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ol>
