@@ -59,10 +59,7 @@ export default function Program({ program }) {
                   {term.sessions.length > 0 &&
                     term.sessions.map((session, j) => {
                       return (
-                        <div
-                          key={`${slug}-term-${i}-session-${j}`}
-                          className=""
-                        >
+                        <div key={`${slug}-term-${i}-session-${j}`}>
                           <div>
                             <h3
                               className={`text-lg text-center text-ocean-blue border-b border-ocean-blue font-bold`}
