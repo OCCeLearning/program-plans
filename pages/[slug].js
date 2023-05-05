@@ -164,7 +164,7 @@ export default function Program({ program }) {
             <h2 className={`text-center text-xl text-ocean-blue font-bold`}>
               Course Key
             </h2>
-            <ul className="flex flex-col lg:flex-row flex-wrap justify-between max-w-xl mx-auto p-6">
+            <ul className="flex flex-col  justify-between max-w-xl mx-auto p-6">
               {usedIcons.length > 0 &&
                 usedIcons.map((icon, i) => {
                   const legend = {
@@ -249,8 +249,12 @@ export default function Program({ program }) {
         <div
           className={`flex flex-col items-center max-w-3xl border-t mt-12 pt-12 mx-auto`}
         >
-          <h2 className="text-ocean-blue font-bold text-2xl">{title}</h2>
-          <h3 className="text-ocean-blue font-semibold">{credits} credits</h3>
+          <h2 className="text-ocean-blue font-bold text-2xl px-6 text-center">
+            {title}
+          </h2>
+          <h3 className="text-ocean-blue font-semibold px-6 text-center">
+            {credits} credits
+          </h3>
           {overview && (
             <a
               href={overview}
