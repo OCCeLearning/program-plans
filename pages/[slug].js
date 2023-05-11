@@ -52,7 +52,7 @@ export default function Program({ program }) {
               <h2 className={`text-center text-2xl font-bold`}>{term.title}</h2>
               <div
                 className={`border-2 border-ocean-blue rounded-md ${
-                  i % 2 !== 0 && `bg-yellow-50`
+                  i % 2 === 0 && `bg-yellow-50`
                 }`}
               >
                 <div className="grid lg:grid-cols-2 gap-y-6 lg:gap-y-0 lg:gap-x-10 p-4 md:p-6 lg:p-8">
