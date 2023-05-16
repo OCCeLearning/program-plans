@@ -988,6 +988,196 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Psychology, A.A.",
+      "slug": "psychology-aa",
+      "credits": 60,
+      "overview": "https://catalog.ocean.edu/areas-study/behavioral-mental-health/psychology/",
+      "requirements": "https://catalog.ocean.edu/areas-study/behavioral-mental-health/psychology/#programrequirementstext",
+      "pdf": "",
+      "terms": [
+        {
+          "title": "Term 1",
+          "sessions": [
+            {
+              "title": "Session 1",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "ENGL151",
+                  "title": "English I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gtec"],
+                  "code": "CSIT123",
+                  "title": "Integrated Office Software",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "STC150",
+                  "title": "Student Success Seminar",
+                  "credits": 2
+                }
+              ]
+            },
+            {
+              "title": "Session 2",
+              "courses": [
+                {
+                  "icons": ["key"],
+                  "code": "PSYC172",
+                  "title": "General Psychology",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "ENGL152",
+                  "title": "English II",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 2",
+          "sessions": [
+            {
+              "title": "Session 3",
+              "courses": [
+                {
+                  "icons": ["pe"],
+                  "code": "PSYC174",
+                  "title": "Personality Theory",
+                  "credits": 3
+                },
+                {
+                  "icons": ["ghum"],
+                  "code": "SPAN151",
+                  "title": "Elementary Spanish I",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "COMM154",
+                  "title": "Fundamentals of Public Speaking",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 4",
+              "courses": [
+                {
+                  "icons": ["pe"],
+                  "code": "PSYC278",
+                  "title": "Life Span Development",
+                  "credits": 3
+                },
+                {
+                  "icons": ["elective"],
+                  "code": "SOCI181",
+                  "title": "Introduction to Sociology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 3",
+          "sessions": [
+            {
+              "title": "Session 5",
+              "courses": [
+                {
+                  "icons": ["pe"],
+                  "code": "PSYC274",
+                  "title": "Social Psychology",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gscl"],
+                  "code": "BIOL114",
+                  "title": "Principles of Biological Science",
+                  "credits": 4
+                },
+                {
+                  "icons": ["ghis"],
+                  "code": "HIST173",
+                  "title": "United States History to 1877",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 6",
+              "courses": [
+                {
+                  "icons": ["gmat"],
+                  "code": "MATH156",
+                  "title": "Introduction to Statistics",
+                  "credits": 3
+                },
+                {
+                  "icons": ["ghis"],
+                  "code": "HIST174",
+                  "title": "United States History from 1877",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Term 4",
+          "sessions": [
+            {
+              "title": "Session 7",
+              "courses": [
+                {
+                  "icons": ["pe"],
+                  "code": "PSYC271",
+                  "title": "Abnormal Psychology",
+                  "credits": 3
+                },
+                {
+                  "icons": ["key"],
+                  "code": "ARTS181",
+                  "title": "Art From Prehistory to Middle Ages",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "title": "Session 8",
+              "courses": [
+                {
+                  "icons": ["gmat","gscl"],
+                  "code": "ENVI152",
+                  "title": "Environmental Science",
+                  "credits": 4
+                },
+                {
+                  "icons": ["key"],
+                  "code": "PHIL191",
+                  "title": "Introduction to Philosophy",
+                  "credits": 3
+                },
+                {
+                  "icons": ["gdiv"],
+                  "code": "ANTH134",
+                  "title": "Cultural Anthropology",
+                  "credits": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
