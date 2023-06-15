@@ -10,10 +10,10 @@
       "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.ba.online.pdf",
       "terms": [
         {
-          "title": "Term 1",
+          "title": "Course Offerings",
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -36,7 +36,7 @@
               ]
             },
             {
-              "title": "Session 2",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -55,10 +55,10 @@
           ]
         },
         {
-          "title": "Term 2",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 3",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["gmat"],
@@ -75,7 +75,7 @@
               ]
             },
             {
-              "title": "Session 4",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["gscl"],
@@ -94,10 +94,10 @@
           ]
         },
         {
-          "title": "Term 3",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 5",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -114,7 +114,7 @@
               ]
             },
             {
-              "title": "Session 6",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -133,10 +133,10 @@
           ]
         },
         {
-          "title": "Term 4",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 7",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -153,7 +153,7 @@
               ]
             },
             {
-              "title": "Session 8",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -172,10 +172,10 @@
           ]
         },
         {
-          "title": "Term 5",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 9",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -204,10 +204,10 @@
       "pdf": "",
       "terms": [
         {
-          "title": "Term 1",
+          "title": "Course Offerings",
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -230,7 +230,7 @@
               ]
             },
             {
-              "title": "Session 2",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -249,10 +249,10 @@
           ]
         },
         {
-          "title": "Term 2",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 3",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["gmat"],
@@ -269,7 +269,7 @@
               ]
             },
             {
-              "title": "Session 4",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["gmat"],
@@ -288,10 +288,10 @@
           ]
         },
         {
-          "title": "Term 3",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 5",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "title": "Session 6",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -327,10 +327,10 @@
           ]
         },
         {
-          "title": "Term 4",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 7",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -347,7 +347,7 @@
               ]
             },
             {
-              "title": "Session 8",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -366,10 +366,10 @@
           ]
         },
         {
-          "title": "Term 5",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 9",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -398,10 +398,10 @@
       "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.ba.scm.online.pdf",
       "terms": [
         {
-          "title": "Term 1",
+          "title": "Course Offerings",
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -424,7 +424,7 @@
               ]
             },
             {
-              "title": "Session 2",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -443,10 +443,10 @@
           ]
         },
         {
-          "title": "Term 2",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 3",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -463,7 +463,7 @@
               ]
             },
             {
-              "title": "Session 4",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -482,10 +482,10 @@
           ]
         },
         {
-          "title": "Term 3",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 5",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -502,7 +502,7 @@
               ]
             },
             {
-              "title": "Session 6",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -521,10 +521,10 @@
           ]
         },
         {
-          "title": "Term 4",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 7",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -541,7 +541,7 @@
               ]
             },
             {
-              "title": "Session 8",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["gscl"],
@@ -560,10 +560,10 @@
           ]
         },
         {
-          "title": "Term 5",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 9",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["ghum"],
@@ -598,10 +598,10 @@
       "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.cj.online.pdf",
       "terms": [
         {
-          "title": "Term 1",
+          "title": "Course Offerings",
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -624,7 +624,7 @@
               ]
             },
             {
-              "title": "Session 2",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -643,10 +643,10 @@
           ]
         },
         {
-          "title": "Term 2",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 3",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["gmat"],
@@ -663,7 +663,7 @@
               ]
             },
             {
-              "title": "Session 4",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["elective"],
@@ -682,10 +682,10 @@
           ]
         },
         {
-          "title": "Term 3",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 5",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -702,7 +702,7 @@
               ]
             },
             {
-              "title": "Session 6",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["elective"],
@@ -721,10 +721,10 @@
           ]
         },
         {
-          "title": "Term 4",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 7",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -741,7 +741,7 @@
               ]
             },
             {
-              "title": "Session 8",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -760,10 +760,10 @@
           ]
         },
         {
-          "title": "Term 5",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 9",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["pe"],
@@ -798,10 +798,10 @@
       "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/as.sw.online.pdf",
       "terms": [
         {
-          "title": "Term 1",
+          "title": "Course Offerings",
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -824,7 +824,7 @@
               ]
             },
             {
-              "title": "Session 2",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -843,10 +843,10 @@
           ]
         },
         {
-          "title": "Term 2",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 3",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["gmat"],
@@ -863,7 +863,7 @@
               ]
             },
             {
-              "title": "Session 4",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["gtec"],
@@ -882,10 +882,10 @@
           ]
         },
         {
-          "title": "Term 3",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 5",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["elective"],
@@ -902,7 +902,7 @@
               ]
             },
             {
-              "title": "Session 6",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["pe"],
@@ -921,10 +921,10 @@
           ]
         },
         {
-          "title": "Term 4",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 7",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -947,7 +947,7 @@
               ]
             },
             {
-              "title": "Session 8",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -966,10 +966,10 @@
           ]
         },
         {
-          "title": "Term 5",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 9",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -995,13 +995,13 @@
       "credits": 60,
       "overview": "https://catalog.ocean.edu/areas-study/behavioral-mental-health/psychology/",
       "requirements": "https://catalog.ocean.edu/areas-study/behavioral-mental-health/psychology/#programrequirementstext",
-      "pdf": "",
+      "pdf": "https://media.ocean.edu/files/elearning/Academics/plans/aa.la.psyc.online.pdf",
       "terms": [
         {
-          "title": "Term 1",
+          "title": "Course Offerings",
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -1024,7 +1024,7 @@
               ]
             },
             {
-              "title": "Session 2",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["key"],
@@ -1043,10 +1043,10 @@
           ]
         },
         {
-          "title": "Term 2",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 3",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["pe"],
@@ -1069,7 +1069,7 @@
               ]
             },
             {
-              "title": "Session 4",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["pe"],
@@ -1088,10 +1088,10 @@
           ]
         },
         {
-          "title": "Term 3",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 5",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["pe"],
@@ -1114,7 +1114,7 @@
               ]
             },
             {
-              "title": "Session 6",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
                   "icons": ["gmat"],
@@ -1133,10 +1133,10 @@
           ]
         },
         {
-          "title": "Term 4",
+          "title": "",
           "sessions": [
             {
-              "title": "Session 7",
+              "title": "Accelerated (L1, L3, L5)",
               "courses": [
                 {
                   "icons": ["pe"],
@@ -1153,10 +1153,10 @@
               ]
             },
             {
-              "title": "Session 8",
+              "title": "Accelerated (L2, L4, L6)",
               "courses": [
                 {
-                  "icons": ["gmat","gscl"],
+                  "icons": ["gmat", "gscl"],
                   "code": "ENVI152",
                   "title": "Environmental Science",
                   "credits": 4

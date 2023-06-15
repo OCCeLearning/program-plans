@@ -15,6 +15,7 @@ import {
 import { AiFillBank } from 'react-icons/ai'
 import { HiDesktopComputer } from 'react-icons/hi'
 import { TbLetterD, TbLetterE } from 'react-icons/tb'
+import { getLabel } from '@/lib/utils/getLabel'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,7 +50,11 @@ export default function Program({ program }) {
         {terms.length > 0 &&
           terms.map((term, i) => (
             <section key={`${slug}-term-${i}`} className={`py-4`}>
-              <h2 className={`text-center text-2xl font-bold`}>{term.title}</h2>
+              {term.title && (
+                <h2 className={`text-center text-2xl font-bold`}>
+                  {term.title}
+                </h2>
+              )}
               <div
                 className={`border-2 border-ocean-blue rounded-md ${
                   i % 2 === 0 && `bg-yellow-50`
@@ -92,41 +97,7 @@ export default function Program({ program }) {
                                                 usedIcons.push(item)
                                               }
                                               const Icon = reactIcons[item]
-                                              let label
-                                              switch (item) {
-                                                case 'pe':
-                                                  label = 'Program Elective'
-                                                  break
-                                                case 'elective':
-                                                  label = 'Elective'
-                                                  break
-                                                case 'gcom':
-                                                  label = 'Communications'
-                                                  break
-                                                case 'gdiv':
-                                                  label = 'Diversity'
-                                                  break
-                                                case 'ghis':
-                                                  label = 'History'
-                                                  break
-                                                case 'ghum':
-                                                  label = 'Humanities'
-                                                  break
-                                                case 'gmat':
-                                                  label = 'Mathematics'
-                                                  break
-                                                case 'gscl':
-                                                  label = 'Lab Science'
-                                                  break
-                                                case 'gsoc':
-                                                  label = 'Social Science'
-                                                  break
-                                                case 'gtec':
-                                                  label = 'Technology'
-                                                  break
-                                                default:
-                                                  label = 'Program Requirement'
-                                              }
+                                              const label = getLabel(item)
                                               return (
                                                 <Icon
                                                   key={`${slug}-term-${i}-session-${j}-course-${k}-icon-${l}`}
@@ -180,41 +151,7 @@ export default function Program({ program }) {
                     gsoc: 'GSOC (GE Social Science)',
                     gtec: 'GTEC (GE Technological Competency or Information Literacy)',
                   }
-                  let label
-                  switch (icon) {
-                    case 'pe':
-                      label = 'Program Elective'
-                      break
-                    case 'elective':
-                      label = 'Elective'
-                      break
-                    case 'gcom':
-                      label = 'Communications'
-                      break
-                    case 'gdiv':
-                      label = 'Diversity'
-                      break
-                    case 'ghis':
-                      label = 'History'
-                      break
-                    case 'ghum':
-                      label = 'Humanities'
-                      break
-                    case 'gmat':
-                      label = 'Mathematics'
-                      break
-                    case 'gscl':
-                      label = 'Lab Science'
-                      break
-                    case 'gsoc':
-                      label = 'Social Science'
-                      break
-                    case 'gtec':
-                      label = 'Technology'
-                      break
-                    default:
-                      label = 'Program Requirement'
-                  }
+                  const label = getLabel(icon)
                   const Icon = reactIcons[icon]
                   return (
                     <li
